@@ -1,2 +1,12 @@
 # ires
-iRES Dashboard ....More description in Readme
+Title: iRES Dashboard
+
+DESCRIPTION
+iRES Dashboard with chart and recent activities
+HTML, CSS, JS
+
+CREDITS
+1- Google Charts API
+https://www.gstatic.com/charts/loader.js
+2- Google Fonts
+https://fonts.google.com
