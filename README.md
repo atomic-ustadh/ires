@@ -7,5 +7,5 @@ HTML, CSS, JS
 #CREDITS
 1- Google Charts API
 https://www.gstatic.com/charts/loader.js
-2- Google Fonts
-https://fonts.google.com
+2- Google Fonts API
+https://fonts.googleapis.com
