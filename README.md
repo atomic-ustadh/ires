@@ -9,5 +9,3 @@ CREDITS
 https://www.gstatic.com/charts/loader.js
 2- Google Fonts
 https://fonts.google.com
-
-https://img.shields.io/badge/vs-code-blue
