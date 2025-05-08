@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Passero+One&display=swap" rel="stylesheet">
+</head>
+
+<body onload="authenticate(); summary();">
+    <header class="olori">
+        <h2 class="logo"><a href="#"></a>iRES</h2>
+        <p style="justify-content: end; width: 40%;" id="user" ;></p>
+    </header>
+    <section class="sec">
+        <div class="card" style="background-color: #003135;">
+            <p><b>Total Orders</b></p>
+            <h2 id="totalOrders"></h2>
+        </div>
+        <div class="card" style="background-color: #024950;">
+            <p><b>Products in stock</b></p>
+            <h2 id="inStock"></h2>
+        </div>
+        <div class="card" style="background-color: #003135;">
+            <p><b>Pending Reviews</b></p>
+            <h2 id="review"></h2>
+        </div>
+    </section>
+    <br>
+    
+    <!--Div that will hold the pie chart-->
+    <div id="myChart" class="chart"></div>
+
+    <!--Add a table for recent activities-->
+    <div class="tab-parent">
+        <table class="tabular">
+            <tbody>
+                <h4 style="text-align: center;">Recent Orders</h4>
+                <tr class="table-even">
+                    <th>Action</td>
+                    <th>ref</td>
+                    <th>timestamp</td>
+                </tr>
+                <tr class="table-odd">
+                    <td>Added "Hair oil" to cart</td>
+                    <td><a href="#">#12345</a></td>
+                    <td>10 minutes ago</td>
+                </tr>
+                <tr class="table-even">
+                    <td>Added "Shampoo" to cart</td>
+                    <td><a href="#">#32451</td>
+                    <td>10 minutes ago</td>
+                </tr>
+                <tr class="table-odd">
+                    <td>Added "Garri" to cart</td>
+                    <td><a href="#">#41253</td>
+                    <td>10 minutes ago</td>
+                </tr>
+                <tr class="table-even">
+                    <td>Added "Sugar" to cart</td>
+                    <td><a href="#">#21354</td>
+                    <td>10 minutes ago</td>
+                </tr>
+                <tr class="table-odd">
+                    <td>Added "Quartz Smart Watch" to cart</td>
+                    <td><a href="#">51432</td>
+                    <td>10 minutes ago</td>
+                </tr>
+            </tbody>
+            <br>
+        </table>
+        <button href="#" target="_blank" class="button">see more...</button>
+    </div> <br>
+    <!-- Footer Section starts here -->
+    <footer>
+        <p id="theDate"></p>
+        <p><a href="#" target="_blank">Privacy policy</a></p>
+    </footer>
+
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="chart.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    font-family: Ubuntu;
+}
+
+body{
+    background-color: #0FA4AF;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+td a{
+    text-decoration: none;
+    color: black;
+}
+.olori{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    font-family: Ubuntu;
+    margin-bottom:30px;
+    background-color: #964734;
+}
+
+.logo{
+    width: 60%;
+    margin-left:100px;
+    color: white;
+    font-family: 'Passero One', serif;
+}
+
+.sec{
+    width:90%;
+    display: flex;
+}
+
+.card{
+    width: 25%;
+    height:300px;
+    padding: 100px 10px 10px 10px;
+    margin-left:auto;
+    border-radius: 20px;
+    background-color: red;
+    text-align: center;
+}
+
+.chart{
+    width:50%;
+    margin:auto;
+}
+
+.tab-parent{
+    width: 50%;
+    margin:auto;
+}
+
+.tabular{
+    overflow-wrap: break-word;
+    text-align: left;
+    border-collapse: collapse;
+    width:100%;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+}
+
+th, td{
+    padding: 10px;
+    color: black;
+}
+
+.table-even{
+    background-color: white;
+}
+
+.table-odd{
+    background-color: grey;
+}
+
+.button{
+    border-radius: 20px;
+    border-color: #964734;
+    width: 100px;
+    height: 34px;
+    margin-left: 290px;
+    margin-top: 5px; 
+    background-color: #964734;
+    color: white;
+}
+
+footer{
+    background-color: #964734;
+    /* height: 34px; */
+    text-align: center;
+    padding: 1px;
+}
+
+@media screen and (max-width: 600px) {
+    .olori{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .logo{
+        margin-left:40px;
+    }
+
+    .sec{
+        width:100%;
+        display: block;
+    }
+
+    .tab-parent{
+        width: 100%;
+        margin:auto;
+    }
+    
+    .card{
+        width: 80%;
+        padding: 100px 10px 10px 10px;
+        margin-left:43px;
+        margin-bottom: 10px;
+        border-radius: 20px;
+        background-color: red;
+        text-align: center;
+    }
+    
+    .chart{
+        width:500px;
+        margin:auto;
+        padding-left: 10px;
+        position: relative;
+        right: 88px;
+    }
+
+    .tabular{
+        overflow-wrap: break-word;
+        text-align: left;
+        border-collapse: collapse;
+        width:100%;
+        border-spacing: 0;
+        border: 1px solid #ddd;
+    }
+    
+    th, td{
+        padding: 10px;
+    }   
+
+    .button{
+            margin-left: 150px;
+    }
+}
