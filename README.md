@@ -1,5 +1,4 @@
-# ires
-Title: iRES Dashboard
+# iRES Dashboard
 
 DESCRIPTION
 iRES Dashboard with chart and recent activities
